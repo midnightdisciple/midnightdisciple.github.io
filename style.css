@@ -1,0 +1,104 @@
+/* ------------------------------ */
+/* Base Layout + Reset            */
+/* ------------------------------ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #fafafa;
+  color: #111;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 720px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* ------------------------------ */
+/* Header / Hero                  */
+/* ------------------------------ */
+
+header {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 0;
+}
+
+/* ------------------------------ */
+/* Posts List                     */
+/* ------------------------------ */
+
+.posts {
+  list-style: none;
+  padding: 0;
+  margin: 3rem 0;
+}
+
+.posts li {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.posts li:last-child {
+  border-bottom: none;
+}
+
+.posts .title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.posts .title:hover {
+  color: #0077cc;
+}
+
+.posts .meta {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.3rem;
+}
+
+/* ------------------------------ */
+/* Footer                         */
+/* ------------------------------ */
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  padding: 2rem 1rem;
+}
+
+/* ------------------------------ */
+/* Responsive Tweaks              */
+/* ------------------------------ */
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  .posts .title {
+    font-size: 1.1rem;
+  }
+}
